@@ -9,20 +9,22 @@ This project includes a python script that acts as a reservation manager for the
                                    5. Exit
 
 1. This option creates a new booking by comparing the customer's requested check-in and check-out dates for a chosen room type (Single, Double, Suite) with the hotel’s existing reservations and automatically finds the first available. If no room is available, the system suggests alternative dates (+/- 2 days) and the customer selects either one of the available options or to exit without booking a room. If the customer selects to book the room, he gives his personal info and the booking is confirmed. I also have to say that:
-  1) Dynamic pricing – The booking price is calculated dynamically based on: 1.Room type availability, 2.Seasonality 3.Early booking or last-minute discounts
-  2) Customer recognition – Returning customers are identified by comparing their email or phone number, and they retain the same customer ID.
-  3) All inputs are validated to prevent invalid or missing data.
-  4) Booking and customer data are saved in JSON files for persistence.
-  5) Cancelation number calculating inside the code.
+     a) Dynamic pricing – The booking price is calculated dynamically based on: 1.Room type availability, 2.Seasonality 3.Early booking or last-minute discounts
+     b) Customer recognition – Returning customers are identified by comparing their email or phone number, and they retain the same customer ID.
+     c) All inputs are validated to prevent invalid or missing data.
+     d) Booking and customer data are saved in JSON files for persistence.
+     e) Cancelation number calculating inside the code.
+
+   
 
 
-2. The option 2 takes as input check in and check out dates and gives the available rooms in that dates.
+3. The option 2 takes as input check in and check out dates and gives the available rooms in that dates.
 
-3. The option 3 gives to the employee the list of the upcoming bookings with the bookings info of each.
+4. The option 3 gives to the employee the list of the upcoming bookings with the bookings info of each.
 
-4. Allows the employee to cancel an existing reservation using the customer ID.
+5. Allows the employee to cancel an existing reservation using the customer ID.
 
-5. This option just exiting the loop.
+6. This option just exiting the loop.
 
 
 In the second phase, the project integrates Power BI for data analysis and visualization.
