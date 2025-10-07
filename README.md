@@ -37,4 +37,5 @@ The dashboard includes key metrics such as:
 4.Booking distribution by customer type (new vs returning)
 5.Cancellation rates
 
-This allows hotel management to easily evaluate performance and make data-driven decisions.
+This project is a **hotel booking management system** combined with a **data analysis dashboard**.  
+It demonstrates how hotel reservations can be managed, analyzed, and visualized using **Python** and **Power BI**.
